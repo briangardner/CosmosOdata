@@ -18,11 +18,11 @@ namespace CosmosOdata.Controllers
         [ODataRoute("/TestEntities")]
         [HttpGet]
         [EnableQuery]
-        public IQueryable Get()
+        public ActionResult Get()
         {
 
-            //return _context.TestEntities; -- this does not work
-            return _context.TestEntities.ToList().AsQueryable();
+            return Ok(_context.TestEntities);// -- this does not work
+            //return Ok(_context.TestEntities.ToList().AsQueryable());
         }
     }
 }
