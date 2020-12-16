@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosOdata", "CosmosOdata\CosmosOdata.csproj", "{CCED712E-8FEE-4574-9303-874FE18B3C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCED712E-8FEE-4574-9303-874FE18B3C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCED712E-8FEE-4574-9303-874FE18B3C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCED712E-8FEE-4574-9303-874FE18B3C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCED712E-8FEE-4574-9303-874FE18B3C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05EDB2AD-ED99-4558-A0E6-5441107AE622}
+	EndGlobalSection
+EndGlobal
