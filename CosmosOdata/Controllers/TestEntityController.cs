@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using CosmosOdata.Models;
 using Microsoft.AspNet.OData;
 using Microsoft.AspNet.OData.Routing;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +19,11 @@ namespace CosmosOdata.Controllers
         [ODataRoute("/TestEntities")]
         [HttpGet]
         [EnableQuery]
-        public ActionResult Get()
+        public ActionResult<IQueryable<TestEntity>> Get()
         {
 
-            return Ok(_context.TestEntities);// -- this does not work
-            //return Ok(_context.TestEntities.ToList().AsQueryable());
+            //return Ok(_context.TestEntities);// -- this does not work
+            return Ok(_context.TestEntities.ToList().AsQueryable());
         }
     }
 }
